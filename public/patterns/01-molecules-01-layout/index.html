@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+	<head id="patternlab-head">
+		<title>Pattern Lab Sub-type Style Guide</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="../../styleguide/css/styleguide.css" media="all" />
+		<link rel="stylesheet" href="../../css/style.css" media="all" />
+	</head>
+	<body class="sg-pattern-list">
+		
+		<!-- View All Patterns in a Pattern Sub-Type -->
+		<div class="sg-main" role="main">
+			
+			<!-- Patterns -->
+			<div id="sg-patterns">
+					<div class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-01-layout-01-nav/01-molecules-01-layout-01-nav.html" class="patternLink" data-patternpartial="molecules-nav">Nav</a></h2>
+						<div class="sg-pattern-body">
+							<div class="mobileNav">
+	<div id="navLinks">
+		<ul id="nav">
+			<li>
+				<a href="http://portfolio.samueldowd.com#featured" class="nav"><b>Featured</b></a>
+			</li>
+			<li>
+				<a href="http://portfolio.samueldowd.com##schools" class="nav"><b>Schools</b></a>
+			</li>
+			<li>
+				<a href="http://portfolio.samueldowd.com##blogs" class="nav"><b>Blogs</b></a>
+			</li>
+		</ul>	
+	</div>
+</div>
+							<div class="sg-code" style="display: none">
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;div class=&quot;mobileNav&quot;&gt;
+	&lt;div id=&quot;navLinks&quot;&gt;
+		&lt;ul id=&quot;nav&quot;&gt;
+			&lt;li&gt;
+				&lt;a href=&quot;http://portfolio.samueldowd.com#featured&quot; class=&quot;nav&quot;&gt;&lt;b&gt;Featured&lt;/b&gt;&lt;/a&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+				&lt;a href=&quot;http://portfolio.samueldowd.com##schools&quot; class=&quot;nav&quot;&gt;&lt;b&gt;Schools&lt;/b&gt;&lt;/a&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+				&lt;a href=&quot;http://portfolio.samueldowd.com##blogs&quot; class=&quot;nav&quot;&gt;&lt;b&gt;Blogs&lt;/b&gt;&lt;/a&gt;
+			&lt;/li&gt;
+		&lt;/ul&gt;	
+	&lt;/div&gt;
+&lt;/div&gt;
+									</code>
+								</pre>
+									<h3 class="sg-code-head">CSS</h3>
+									<pre class="sg-code-css">
+										<code>
+											* { 
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	border: 0;
+	font-family: raleway;
+}
+
+html, body, div, ul, li { 
+	margin: 0;
+	padding: 0;
+}
+
+body { 
+	background: white;
+	font: 100%/1.5 &quot;HelveticaNeue&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;
+	-webkit-text-size-adjust: 100%;
+	color: #333333;
+}
+
+a { 
+	color: #333333;
+	text-decoration: none;
+	outline: 0;
+}
+
+a:hover, a:focus { 
+	color: gray;
+}
+
+ul { 
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav { 
+	clear: both;
+	overflow: hidden;
+	max-height: 0;
+}
+
+a:visited { 
+	color: white;
+}
+
+#navLinks { 
+	float: right;
+	padding: 30px 30px 0 0;
+	display: block;
+}
+
+#nav li { 
+	float: left;
+	padding: 5px 15px;   
+	font-weight: bold;  
+	font-size: 1.25em;
+	color: #FFFFFF;
+	list-style: none;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	-webkit-transition: all 0.3s ease-in-out;   
+	-moz-transition: all 0.3s ease-in-out;   
+	-o-transition: all 0.3s ease-in-out;   
+	transition: all 0.3s ease-in-out;
+	margin: 0 20px 0 20px;
+}
+
+#nav li a { 
+	text-decoration: none;
+	color: white;
+}
+
+#nav li:hover { 
+	background: rgba(255, 255, 255, 0.35);
+}
+
+ul { 
+	padding: 0;
+	margin: 0;
+}
+
+@media all and (min-width: 46.8em) {
+	.nav { 
+		max-height: none;
+		float: right;
+		clear: none;
+	}
+
+
+}
+
+@font-face {
+	font-family: 'icons';
+	src: url(&quot;../fonts/icons.eot&quot;);
+	src: url(&quot;../fonts/icons.eot?#iefix&quot;) format(&quot;embedded-opentype&quot;), url(&quot;../fonts/icons.woff&quot;) format(&quot;woff&quot;), url(&quot;../fonts/icons.ttf&quot;) format(&quot;truetype&quot;), url(&quot;../fonts/icons.svg#icons&quot;) format(&quot;svg&quot;);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@media (max-width: 1020px) {
+	#navLinks { 
+		padding: 0;
+		position: relative;
+		top: 45px;
+	}
+
+	#nav li { 
+		float: right;
+	}
+
+
+}
+
+@media (max-width: 790px) {
+	#navLinks { 
+		max-width: 450px;
+		margin: 0 auto;
+		right: 100px;
+		top: 0;
+	}
+
+	#nav li { 
+		float: left;
+	}
+
+
+}
+
+
+										</code>
+									</pre>
+							</div>
+						</div>
+					</div>
+					<div class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-01-layout-01-navigation/01-molecules-01-layout-01-navigation.html" class="patternLink" data-patternpartial="molecules-navigation">Navigation</a></h2>
+						<div class="sg-pattern-body">
+							<div class="mobileNav">
+	<div id="navLinks">
+		<ul id="nav">
+			<li>
+				<a href="http://portfolio.samueldowd.com#featured" class="nav"><b>Featured</b></a>
+			</li>
+			<li>
+				<a href="http://portfolio.samueldowd.com##schools" class="nav"><b>Schools</b></a>
+			</li>
+			<li>
+				<a href="http://portfolio.samueldowd.com##blogs" class="nav"><b>Blogs</b></a>
+			</li>
+		</ul>	
+	</div>
+</div>
+							<div class="sg-code" style="display: none">
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;div class=&quot;mobileNav&quot;&gt;
+	&lt;div id=&quot;navLinks&quot;&gt;
+		&lt;ul id=&quot;nav&quot;&gt;
+			&lt;li&gt;
+				&lt;a href=&quot;http://portfolio.samueldowd.com#featured&quot; class=&quot;nav&quot;&gt;&lt;b&gt;Featured&lt;/b&gt;&lt;/a&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+				&lt;a href=&quot;http://portfolio.samueldowd.com##schools&quot; class=&quot;nav&quot;&gt;&lt;b&gt;Schools&lt;/b&gt;&lt;/a&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+				&lt;a href=&quot;http://portfolio.samueldowd.com##blogs&quot; class=&quot;nav&quot;&gt;&lt;b&gt;Blogs&lt;/b&gt;&lt;/a&gt;
+			&lt;/li&gt;
+		&lt;/ul&gt;	
+	&lt;/div&gt;
+&lt;/div&gt;
+									</code>
+								</pre>
+									<h3 class="sg-code-head">CSS</h3>
+									<pre class="sg-code-css">
+										<code>
+											* { 
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	border: 0;
+	font-family: raleway;
+}
+
+html, body, div, ul, li { 
+	margin: 0;
+	padding: 0;
+}
+
+body { 
+	background: white;
+	font: 100%/1.5 &quot;HelveticaNeue&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;
+	-webkit-text-size-adjust: 100%;
+	color: #333333;
+}
+
+a { 
+	color: #333333;
+	text-decoration: none;
+	outline: 0;
+}
+
+a:hover, a:focus { 
+	color: gray;
+}
+
+ul { 
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav { 
+	clear: both;
+	overflow: hidden;
+	max-height: 0;
+}
+
+a:visited { 
+	color: white;
+}
+
+#navLinks { 
+	float: right;
+	padding: 30px 30px 0 0;
+	display: block;
+}
+
+#nav li { 
+	float: left;
+	padding: 5px 15px;   
+	font-weight: bold;  
+	font-size: 1.25em;
+	color: #FFFFFF;
+	list-style: none;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	-webkit-transition: all 0.3s ease-in-out;   
+	-moz-transition: all 0.3s ease-in-out;   
+	-o-transition: all 0.3s ease-in-out;   
+	transition: all 0.3s ease-in-out;
+	margin: 0 20px 0 20px;
+}
+
+#nav li a { 
+	text-decoration: none;
+	color: white;
+}
+
+#nav li:hover { 
+	background: rgba(255, 255, 255, 0.35);
+}
+
+ul { 
+	padding: 0;
+	margin: 0;
+}
+
+@media all and (min-width: 46.8em) {
+	.nav { 
+		max-height: none;
+		float: right;
+		clear: none;
+	}
+
+
+}
+
+@font-face {
+	font-family: 'icons';
+	src: url(&quot;../fonts/icons.eot&quot;);
+	src: url(&quot;../fonts/icons.eot?#iefix&quot;) format(&quot;embedded-opentype&quot;), url(&quot;../fonts/icons.woff&quot;) format(&quot;woff&quot;), url(&quot;../fonts/icons.ttf&quot;) format(&quot;truetype&quot;), url(&quot;../fonts/icons.svg#icons&quot;) format(&quot;svg&quot;);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@media (max-width: 1020px) {
+	#navLinks { 
+		padding: 0;
+		position: relative;
+		top: 45px;
+	}
+
+	#nav li { 
+		float: right;
+	}
+
+
+}
+
+@media (max-width: 790px) {
+	#navLinks { 
+		max-width: 450px;
+		margin: 0 auto;
+		right: 100px;
+		top: 0;
+	}
+
+	#nav li { 
+		float: left;
+	}
+
+
+}
+
+
+										</code>
+									</pre>
+							</div>
+						</div>
+					</div>
+			</div> <!--end #sg-patterns-->
+	
+		</div><!--end .sg-main-->
+		
+		<!-- JS to hook everything together and do annotations -->
+		<script>
+			// handle injection of items from PHP
+			var patternPartial = "viewall-molecules-layout";
+			var lineage = "";
+		</script>
+		<script src="../../styleguide/js/postmessage.js"></script>
+		<script src="../../data/annotations.js"></script>
+		<script src="../../styleguide/js/annotations-pattern.js"></script>
+		<script src="../../styleguide/js/code-pattern.js"></script>
+		
+	</body>
+</html>

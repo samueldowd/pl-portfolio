@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head id="patternlab-head">
+		<title>Pattern Lab Sub-type Style Guide</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="../../styleguide/css/styleguide.css" media="all" />
+		<link rel="stylesheet" href="../../css/style.css" media="all" />
+	</head>
+	<body class="sg-pattern-list">
+		
+		<!-- View All Patterns in a Pattern Sub-Type -->
+		<div class="sg-main" role="main">
+			
+			<!-- Patterns -->
+			<div id="sg-patterns">
+					<div class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-03-images-00-logo/00-atoms-03-images-00-logo.html" class="patternLink" data-patternpartial="atoms-logo">Logo</a></h2>
+						<div class="sg-pattern-body">
+							<a href="http://portfolio.samueldowd.com"><img src="../../images/swdlogo.jpg" class="logo" id="logo" alt="Samuel W. Dowd Logo" /></a>
+							<div class="sg-code" style="display: none">
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;a href=&quot;http://portfolio.samueldowd.com&quot;&gt;&lt;img src=&quot;../../images/swdlogo.jpg&quot; class=&quot;logo&quot; id=&quot;logo&quot; alt=&quot;Samuel W. Dowd Logo&quot; /&gt;&lt;/a&gt;
+									</code>
+								</pre>
+									<h3 class="sg-code-head">CSS</h3>
+									<pre class="sg-code-css">
+										<code>
+											* { 
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	border: 0;
+	font-family: raleway;
+}
+
+html, body { 
+	margin: 0;
+	padding: 0;
+}
+
+body { 
+	background: white;
+	font: 100%/1.5 &quot;HelveticaNeue&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;
+	-webkit-text-size-adjust: 100%;
+	color: #333333;
+}
+
+a { 
+	color: #333333;
+	text-decoration: none;
+	outline: 0;
+}
+
+a:hover, a:focus { 
+	color: gray;
+}
+
+img { 
+	max-width: 100%;
+	height: auto;
+}
+
+.logo { 
+	float: left;
+	max-width: 8rem;
+	margin: 0.4rem;
+}
+
+a:visited { 
+	color: white;
+}
+
+#logo { 
+	background: url(../img/swdlogo.jpg);
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+	margin: 0 20px;
+	float: left;
+}
+
+@media all and (min-width: 46.8em) {
+	.logo { 
+		max-width: 9rem;
+	}
+
+
+}
+
+@font-face {
+	font-family: 'icons';
+	src: url(&quot;../fonts/icons.eot&quot;);
+	src: url(&quot;../fonts/icons.eot?#iefix&quot;) format(&quot;embedded-opentype&quot;), url(&quot;../fonts/icons.woff&quot;) format(&quot;woff&quot;), url(&quot;../fonts/icons.ttf&quot;) format(&quot;truetype&quot;), url(&quot;../fonts/icons.svg#icons&quot;) format(&quot;svg&quot;);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@media (max-width: 790px) {
+	#logo { 
+		float: none;
+		margin: 0 auto;
+	}
+
+
+}
+
+
+										</code>
+									</pre>
+							</div>
+						</div>
+					</div>
+			</div> <!--end #sg-patterns-->
+	
+		</div><!--end .sg-main-->
+		
+		<!-- JS to hook everything together and do annotations -->
+		<script>
+			// handle injection of items from PHP
+			var patternPartial = "viewall-atoms-images";
+			var lineage = "";
+		</script>
+		<script src="../../styleguide/js/postmessage.js"></script>
+		<script src="../../data/annotations.js"></script>
+		<script src="../../styleguide/js/annotations-pattern.js"></script>
+		<script src="../../styleguide/js/code-pattern.js"></script>
+		
+	</body>
+</html>

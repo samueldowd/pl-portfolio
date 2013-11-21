@@ -1,0 +1,278 @@
+* {
+	margin: 0;
+	border: 0;
+	font-family: raleway;
+}
+a:visited {
+	color: white;
+}
+a:link {
+	color: white;
+}
+h1 {
+	color: white;
+}
+.banner {
+	height: 544px;
+	width: 100%;
+}
+#home-banpho {
+	background: url(../img/petillo.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#shu-banpho {
+	background: url(../img/shu.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.transHead {
+	height: 100px;
+	background: rgba(0, 0, 0, 0.6);
+}
+#topNav {
+	background-color: #2D2D2D;
+	padding: 10px;
+}
+#logo {
+	background: url(../img/swdlogo.jpg);
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+	margin: 0 20px;
+	float: left;
+}
+#name {
+	float: left;
+	padding: 35px 0 35px 0;
+}
+#navLinks {
+	float: right;
+	padding: 30px 30px 0 0;
+	display: block;
+}
+#nav li {
+	float: left;
+	padding: 5px 15px;   
+	font-weight: bold;  
+	font-size: 1.25em;
+	color: #FFFFFF;
+	list-style: none;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	-webkit-transition: all 0.3s ease-in-out;   
+	-moz-transition: all 0.3s ease-in-out;   
+	-o-transition: all 0.3s ease-in-out;   
+	transition: all 0.3s ease-in-out;
+	margin: 0 20px 0 20px;
+}
+#nav li a {
+	text-decoration: none;
+	color: white;
+}
+#nav li:hover {
+	background: rgba(255, 255, 255, 0.35);
+}
+.schoolHead {
+	margin: 0 auto;
+	text-align: center;
+	text-shadow: 1px 1px #666;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 12px;
+	max-width: 700px;
+	color: white;
+	margin-top: 75px;
+	padding: 20px;
+}
+.schoolHead h1 {
+	font-size: 3em;
+}
+.schoolHead h2 {
+	font-size: 2em;
+	color: white;
+}
+.envelope {
+	max-width: 1024px;
+	margin: 0 auto;
+	height: 1355px;
+	border: 1px solid black;
+	border-top: 0;
+	background-color: #bdc3c7;
+}
+.content {
+	border-bottom: 1px solid black;
+	height: 450px;
+}
+.content h1 {
+	font-size: 2.25em;
+	text-align: center;	
+	padding: 20px 20px 0 20px;
+	text-shadow: 2px 2px #666;
+}
+.schoolHeader {
+	height: 90px;
+	width: 90%;
+	margin: 5px auto;
+	border-radius: 60px;
+	  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);   
+	  -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);   
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+		text-align: center;
+	font-size: 3em;
+	position: relative;
+	top: 10px;
+	padding-top: 30px;
+}
+#schools a {
+	text-decoration: none;
+}
+#schools a:visited {
+	color: white;
+}
+#sacred {
+	background: url(../img/shu.png);
+	background-size: cover;
+}
+#fram {
+	background: url(../img/fsu.png);
+	background-size: cover;
+}
+#ext {
+	background: url(../img/hes.png);
+	background-size: cover;
+}
+#sacred:hover {
+	color: #990000;
+	background: url(../img/trans_shu.png);
+	background-size: cover;
+	text-shadow: 1px 1px #666;
+}
+#fram:hover {
+	color: #FABC30;
+	background: url(../img/trans_fsu.png);
+	background-size: cover;
+	text-shadow: 1px 1px #666;
+}
+#ext:hover {
+	color: #A41034;
+	background: url(../img/trans_hes.png);
+	background-size: cover;
+	text-shadow: 1px 1px #666;
+}
+#blogs {
+	border-bottom: 0;
+}
+#blogs li {
+	list-style: none;
+	width: 240px;
+	text-align: center;
+}
+#blogs a div {
+	display: inline;
+	float: left;
+	max-width: 240px;
+	margin: 0 auto;
+}
+#blogs .cont a ul li img {
+	width: 140px;
+	border-radius: 128px;
+	border: 10px solid white;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+.cont {
+	max-width: 960px;
+	margin: 0 auto;
+	position: relative;
+	top: 60px;
+}
+#blogs a .moonshot:hover ul li img,
+#blogs a .moonshot:hover ul li em,
+#blogs a .moonshot:hover ul li b,
+#blogs a .swdowd:hover ul li img,
+#blogs a .swdowd:hover ul li em,
+#blogs a .swdowd:hover ul li b, 
+#blogs a .syv:hover ul li img,
+#blogs a .syv:hover ul li em,
+#blogs a .syv:hover ul li b,
+#blogs a .qsswd:hover ul li img,
+#blogs a .qsswd:hover ul li em,
+#blogs a .qsswd:hover ul li b {
+	border-color: #2c3e50;
+	color: #2c3e50;
+}
+#footer {
+	height: 50px;
+	margin: 15px auto;
+	max-width: 1024px;
+}
+#footer p {
+	position: relative;
+	top: 10%;
+	text-align: center;	
+}
+#footer p a:link,#footer p a:visited {
+	color: rgba(0, 0, 0, 1.0);
+}
+
+@media (max-width: 1020px) {
+	#navLinks {
+		padding: 0;
+		position: relative;
+		top: 45px;
+	}
+	#nav li {
+		float: right;
+	}
+	#quote {
+		max-width: 500px;
+		margin: 0 auto;
+		font-size: 1em;
+	}
+	.schoolHeader {
+		font-size: 2em;
+		position: relative;
+		top: 45px;
+	}
+	.top-half,.bottom-half {
+		display: block;
+		max-width: 500px;
+		margin: 10px auto;
+	}
+	.content div ul {
+		margin: 10px 0 10px 0;
+	}	
+	.envelope {
+		height: 1600px;
+	}
+	#blogs {
+		height: 650px;
+	}
+}
+@media (max-width: 790px) {
+	#logo {
+		float: none;
+		margin: 0 auto;
+	}
+	#name {
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+	#navLinks {
+		max-width: 450px;
+		margin: 0 auto;
+		right: 100px;
+		top: 0;
+	}
+	#nav li {
+		float: left;
+	}
+	#quote {
+		top: 20px;
+	}
+}
